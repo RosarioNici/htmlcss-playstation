@@ -1,0 +1,34 @@
+/* header */
+.black-logo {
+    background-color: black;
+}
+
+#logo-sony {
+    width: 100px;
+}
+
+.hamb-menu {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(95, 95, 95);
+}
+
+.menu {
+    border: 1px solid grey;
+    width: 55px;
+
+}
+
+.jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.jumbo-content {
+    color: white;
+}
+
+/* main */
+/* footer */
