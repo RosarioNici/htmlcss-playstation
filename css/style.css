@@ -20,13 +20,29 @@
 }
 
 .jumbo {
-    background-image: url(../img/jumbo-bg.png);
+    background: url(../img/jumbo-bg.png)no-repeat center;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: auto;
+    height: 100%;
+    overflow: hidden;
 }
 
 .jumbo-content {
+    color: white;
+}
+
+.midle {
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg )no-repeat center;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.new-games {
+    background-color: rgb(32, 32, 32);
+}
+
+.card-new-games,
+.new-games {
     color: white;
 }
 
