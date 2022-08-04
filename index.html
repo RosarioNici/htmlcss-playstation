@@ -27,18 +27,77 @@
         </div>
         <!-- second part of header -->
         <div class="navigation-bar py-3 container-fluid justify-content-between d-flex align-items-center">
-            <div>
-                <img src="./img/play_logo.svg" alt="Logo Playstation">
-            </div>
-            <div>
-                <nav class="py-2 px-2">
-                    <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
-                        <div class="menu rounded py-2 text-center justify-content-center row">
-                            <div class="hamb-menu my-1 rounded"></div>
-                            <div class="hamb-menu my-1 rounded"></div>
-                            <div class="hamb-menu my-1 rounded"></div>
+            <nav class="d-flex align-items-center">
+                <div>
+                    <img src="./img/play_logo.svg" alt="Logo Playstation">
+                </div>
+                <div class="hidden-bar">
+                    <ul class="d-flex my-0">
+                        <li>
+                            <button class="btn">Giochi <img class="img-fluid down-arrow"
+                                    src="./img/chevron-down-solid.svg" alt="Down arrow"></button>
+                            <!-- <ul>
+                                <li><a href="#">PlayStation 5 </a></li>
+                                <li><a href="#">PlayStation 4</a></li>
+                                <li><a href="#">PlayStation 3</a></li>
+                            </ul> -->
+                        </li>
+                        <li>
+                            <button class="btn">Hardware <img class="img-fluid down-arrow"
+                                    src="./img/chevron-down-solid.svg" alt="Down arrow">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">Servizi <img class="img-fluid down-arrow"
+                                    src="./img/chevron-down-solid.svg" alt="Down arrow">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">Novità <img class="img-fluid down-arrow"
+                                    src="./img/chevron-down-solid.svg" alt="Down arrow">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">Fai acquisti <img class="img-fluid down-arrow"
+                                    src="./img/chevron-down-solid.svg" alt="Down arrow">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">Supporto <img class="img-fluid down-arrow"
+                                    src="./img/chevron-down-solid.svg" alt="Down arrow">
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="navigation">
+                <nav class="py-2 px-2 d-flex">
+                    <div class="hidden-bar">
+                        <div class="d-flex align-items-center">
+                            <div class="mx-2">
+                                <button class="btn">My PlayStation <img class="img-fluid down-arrow"
+                                        src="./img/chevron-down-solid.svg" alt="Down arrow">
+                                </button>
+                            </div>
+                            <div class="mx-2">
+                                <button>Accedi</button>
+                            </div>
+                            <div class="mx-2">
+                                <img class="lens" src="./img/lens.svg" alt="Lens of search">
+                            </div>
                         </div>
-                    </button>
+                    </div>
+
+                    <div class="hambu-menu">
+                        <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="menu rounded py-2 text-center justify-content-center row">
+                                <div class="hamb-menu my-1 rounded"></div>
+                                <div class="hamb-menu my-1 rounded"></div>
+                                <div class="hamb-menu my-1 rounded"></div>
+                            </div>
+                        </button>
+                    </div>
+
                 </nav>
             </div>
         </div>
@@ -75,27 +134,27 @@
         <section>
             <!-- section of cards -->
             <div class="col-12 cards-games row my-3 py-3">
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-4 col-xxl-2">
                     <img class="img-fluid rounded-5 m-2" src="./img/returnal-listing-thumb-01-ps5.jpg"
                         alt="Returnal Cover">
                 </div>
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-4 col-xxl-2">
                     <img class="img-fluid rounded-5 m-2" src="./img/ratchet-and-clank-rift-apart-keyart.jpg"
                         alt="Returnal Cover">
                 </div>
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-4 col-xxl-2">
                     <img class="img-fluid rounded-5 m-2" src="./img/returnal-listing-thumb-01-ps5.jpg"
                         alt="Returnal Cover">
                 </div>
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-4 col-xxl-2">
                     <img class="img-fluid rounded-5 m-2" src="./img/ratchet-and-clank-rift-apart-keyart.jpg"
                         alt="Returnal Cover">
                 </div>
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-4 col-xxl-2">
                     <img class="img-fluid rounded-5 m-2" src="./img/returnal-listing-thumb-01-ps5.jpg"
                         alt="Returnal Cover">
                 </div>
-                <div class="col-6 col-md-4">
+                <div class="col-6 col-md-4 col-xxl-2">
                     <img class="img-fluid rounded-5 m-2" src="./img/ratchet-and-clank-rift-apart-keyart.jpg"
                         alt="Returnal Cover">
                 </div>
@@ -118,7 +177,7 @@
             </div>
 
             <div class="container-lg row align-items-center">
-                <div class="container-sm col-lg-6 pt-5">
+                <div class="container-sm col-lg-6  pt-5">
                     <div class="pt-5 pb-3">
                         <h1>Console PlayStation 5</h1>
                     </div>
@@ -135,7 +194,7 @@
                 </div>
             </div>
             <!-- thumb section -->
-            <div class="container-lg row justify-content-center py-5">
+            <div class="container-lg row justify-content-around py-5">
                 <div class="col-4 col-lg-2">
                     <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="Console PlayStation 5">
                     <div class="text-thumb">
@@ -204,63 +263,63 @@
                     <h2>Nuove uscite</h2>
                     <h5>Giochi imperdibili per Ps4 e Ps5 disponibili ora</h5>
                 </div>
-                <div class="row">
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                <div class="row container-fluid justify-content-center">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Tony Hawk's&#8482; pro skater&#8482; 1 + 2</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Crash Bandicoot 4: it's about time</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Tony Hawk's&#8482; pro skater&#8482; 1 + 2</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Crash Bandicoot 4: it's about time</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Tony Hawk's&#8482; pro skater&#8482; 1 + 2</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Crash Bandicoot 4: it's about time</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Tony Hawk's&#8482; pro skater&#8482; 1 + 2</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Crash Bandicoot 4: it's about time</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Tony Hawk's&#8482; pro skater&#8482; 1 + 2</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Crash Bandicoot 4: it's about time</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Tony Hawk's&#8482; pro skater&#8482; 1 + 2</h6>
                     </div>
-                    <div class="card-new-games col-6 my-3 col-md-4">
+                    <div class="card-new-games col-6 my-3 col-md-4 col-xl-2">
                         <img class="img-fluid rounded-5" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                             alt="Tony Hawk's pro skater">
                         <h6>Crash Bandicoot 4: it's about time</h6>

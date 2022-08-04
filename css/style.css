@@ -30,6 +30,18 @@
     color: white;
 }
 
+.down-arrow {
+    width: 15px;
+}
+
+.lens {
+    width: 25px;
+}
+
+.hidden-bar {
+    display: none;
+}
+
 
 
 /* main */
@@ -78,11 +90,22 @@ a {
     text-decoration: none;
 }
 
+
 /* media query */
 @media screen and (min-width:992px) {
 
     .img-diagonal,
     .text-thumb {
+        display: inherit;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hambu-menu {
+        display: none;
+    }
+
+    .hidden-bar {
         display: inherit;
     }
 }
