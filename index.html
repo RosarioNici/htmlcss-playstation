@@ -34,7 +34,7 @@
                 <div class="hidden-bar">
                     <ul class="d-flex my-0">
                         <li>
-                            <button class="btn">Giochi <img class="img-fluid down-arrow"
+                            <button class="btn nav-button">Giochi <img class="img-fluid down-arrow"
                                     src="./img/chevron-down-solid.svg" alt="Down arrow" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                 <ul class="dropdown-menu container-fluid text-center ">
@@ -73,7 +73,7 @@
 
                         </li>
                         <li>
-                            <button class="btn">Hardware <img class="img-fluid down-arrow"
+                            <button class="btn nav-button">Hardware <img class="img-fluid down-arrow"
                                     src="./img/chevron-down-solid.svg" alt="Down arrow" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                 <ul class="dropdown-menu container-fluid text-center ">
@@ -112,7 +112,7 @@
 
                         </li>
                         <li>
-                            <button class="btn">Servizi <img class="img-fluid down-arrow"
+                            <button class="btn nav-button">Servizi <img class="img-fluid down-arrow"
                                     src="./img/chevron-down-solid.svg" alt="Down arrow" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                 <ul class="dropdown-menu container-fluid text-center ">
@@ -151,7 +151,7 @@
 
                         </li>
                         <li>
-                            <button class="btn">Novità <img class="img-fluid down-arrow"
+                            <button class="btn nav-button">Novità <img class="img-fluid down-arrow"
                                     src="./img/chevron-down-solid.svg" alt="Down arrow" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                 <ul class="dropdown-menu container-fluid text-center ">
@@ -190,7 +190,7 @@
 
                         </li>
                         <li>
-                            <button class="btn">Fai Acquisti <img class="img-fluid down-arrow"
+                            <button class="btn nav-button">Fai Acquisti <img class="img-fluid down-arrow"
                                     src="./img/chevron-down-solid.svg" alt="Down arrow" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                 <ul class="dropdown-menu container-fluid text-center ">
@@ -229,7 +229,7 @@
 
                         </li>
                         <li>
-                            <button class="btn">Supporto <img class="img-fluid down-arrow"
+                            <button class="btn nav-button">Supporto <img class="img-fluid down-arrow"
                                     src="./img/chevron-down-solid.svg" alt="Down arrow" href="#" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                 <ul class="dropdown-menu container-fluid text-center ">
@@ -275,7 +275,7 @@
                     <div class="hidden-bar">
                         <div class="d-flex align-items-center">
                             <div class="mx-2">
-                                <button class="btn">My PlayStation <img class="img-fluid down-arrow"
+                                <button class="btn nav-button">My PlayStation <img class="img-fluid down-arrow"
                                         src="./img/chevron-down-solid.svg" alt="Down arrow" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                     <ul class="dropdown-menu container-fluid text-center ">
@@ -312,20 +312,37 @@
                                 </button>
                             </div>
                             <div class="mx-2">
-                                <button>Accedi</button>
+                                <button class="black-button p-2 rounded-5">Accedi</button>
                             </div>
                             <div class="mx-2">
-                                <img class="lens" src="./img/lens.svg" alt="Lens of search">
+                                <button class="btn nav-button"><img class="lens" src="./img/lens.svg"
+                                        alt="Lens of search" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                    <div class="dropdown-menu search">
+                                        <input type="text" placeholder="Cerca..">
+                                    </div>
+                                </button>
                             </div>
                         </div>
                     </div>
 
                     <div class="hambu-menu">
-                        <button type="button" class="btn" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button type="button" class="btn nav-button" data-bs-toggle="dropdown" aria-expanded="false">
                             <div class="menu rounded py-2 text-center justify-content-center row">
                                 <div class="hamb-menu my-1 rounded"></div>
                                 <div class="hamb-menu my-1 rounded"></div>
                                 <div class="hamb-menu my-1 rounded"></div>
+                            </div>
+                            <div class="dropdown-menu">
+                                <ul class="">
+                                    <li class="py-2"><a class="link-drop" href="#">Giochi</a></li>
+                                    <li class="py-2"><a class="link-drop" href="#">Hardware</a></li>
+                                    <li class="py-2"><a class="link-drop" href="#">Servizi</a></li>
+                                    <li class="py-2"><a class="link-drop" href="#">Novità</a></li>
+                                    <li class="py-2"><a class="link-drop" href="#">Fai Acquisti</a></li>
+                                    <li class="py-2"><a class="link-drop" href="#">Supporto</a></li>
+                                    <li class="py-2"><a class="link-drop" href="#">My PlayStation</a></li>
+                                </ul>
                             </div>
                         </button>
                     </div>
@@ -336,8 +353,8 @@
         <!-- third part of header -->
         <div class="jumbo container-fluid">
             <div class="jumbo-content container-lg py-5">
-                <div class="container-xxl py-5">
-                    <div class="col-6">
+                <div class="container-lg py-5">
+                    <div class="col-6 col-xl-3">
                         <img class="img-fluid" src="./img/returnal-hero-banner-logo.png" alt="Renatural banner">
                     </div>
                     <div class="col-xl-3 py-5">
@@ -345,14 +362,14 @@
                             <h1>Rompi il Cerchio</h1>
                         </div>
                         <div>
-                            <p>
+                            <h6>
                                 Rialzati dopo ogni sconfitta eaffronta una nuova sfida con ogni rinascita in questo
                                 esplosivo
                                 thriller fantascientifico, disponibile in esclusiva su ps5
-                            </p>
+                            </h6>
                         </div>
                         <div class="py-5">
-                            <button>Acquista ora</button>
+                            <button class="red-button p-2 rounded-5">Acquista ora</button>
                         </div>
                     </div>
 
@@ -417,7 +434,7 @@
                         <h6>Sperimenta la nuova gnerazioni di incredibili giochi PlayStation</h6>
                     </div>
                     <div class="py-4">
-                        <button>Maggiori informazioni</button>
+                        <button class="xl-blu-button p-2 rounded-5">Maggiori informazioni</button>
                     </div>
                 </div>
 
@@ -465,22 +482,21 @@
             <div class="midle">
                 <div class="jumbo-content container-lg py-5">
                     <div class="container-xxl py-5">
-                        <div class="col-6">
+                        <div class="col-6 col-xl-3">
                             <img class="img-fluid" src="./img/it-takes-two-logo.png" alt="Renatural banner">
                         </div>
                         <div class="col-xl-3 py-5">
                             <div>
-                                <h1>Rompi il Cerchio</h1>
+                                <h1>Un'avventura cooperativa e selvaggia ti attende</h1>
                             </div>
                             <div>
-                                <p>
-                                    Rialzati dopo ogni sconfitta eaffronta una nuova sfida con ogni rinascita in questo
-                                    esplosivo
-                                    thriller fantascientifico, disponibile in esclusiva su ps5
-                                </p>
+                                <h6>
+                                    Trova un amico e partite insieme per una delle avventure più folli delle vostre vite
+                                    in it Tekes Two, un gioco cooperativo e piattaforme che stravolge il suo genere
+                                </h6>
                             </div>
                             <div class="py-5">
-                                <button>Acquista ora</button>
+                                <button class="red-button p-2 rounded-5">Acquista ora</button>
                             </div>
                         </div>
 
@@ -576,7 +592,7 @@
                                 <h1>PlayStation 4</h1>
                                 <h6>Giochi incredibili live su PS4, con 1TB di spazio di archiviazione.
                                 </h6>
-                                <button>Scopri di più</button>
+                                <button class="blu-button p-2 rounded-5">Scopri di più</button>
                             </div>
                         </div>
 
@@ -587,7 +603,7 @@
                                 <h1>PlayStation VR</h1>
                                 <h6>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.
                                 </h6>
-                                <button>Scopri di più</button>
+                                <button class="blu-button p-2 rounded-5">Scopri di più</button>
                             </div>
                         </div>
 
@@ -598,7 +614,7 @@
                                 <h6>
                                     Migliora la tua esperienza Ps4 con una gamma di accessori ufficiali.
                                 </h6>
-                                <button>Scopri di più</button>
+                                <button class="blu-button p-2 rounded-5">Scopri di più</button>
                             </div>
                         </div>
                     </div>
@@ -619,7 +635,8 @@
                             sconti
                             esclusivi ed altro ancora.
                         </h6>
-                        <div class="my-3"><button>Esplora PlayStation Plus</button></div>
+                        <div class="my-3"><button class="withe-button p-2 rounded-5">Esplora PlayStation Plus</button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-6">
@@ -673,7 +690,8 @@
                             sconti
                             esclusivi ed altro ancora.
                         </h6>
-                        <div class="my-5"><button>Esplora PlayStation Plus</button></div>
+                        <div class="my-5"><button class="withe-button p-2 rounded-5">Esplora PlayStation Plus</button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-6">

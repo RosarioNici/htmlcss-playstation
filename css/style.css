@@ -58,6 +58,19 @@
     color: hsl(207.8, 100%, 41%);
 }
 
+.nav-button:hover {
+    border: 0px;
+}
+
+.nav-button {
+    border: none;
+}
+
+.search {
+    width: 200px;
+    text-align: center;
+}
+
 /* #endregion */
 
 /* main */
@@ -106,6 +119,37 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+/* #endregion */
+
+/* button */
+/* #region */
+.black-button {
+    background-color: #363636;
+    border: none;
+    color: white;
+    width: 70px;
+}
+
+.red-button {
+    background-color: #cd3d0f;
+    border: none;
+    color: white;
+}
+
+.xl-blu-button,
+.blu-button {
+    background-color: #2d64e7;
+    border: none;
+    color: white;
+}
+
+.withe-button {
+    background-color: #d9dadc;
+    color: #2d64e7;
+    border: none;
+    font-weight: 500;
 }
 
 /* #endregion */
