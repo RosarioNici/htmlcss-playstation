@@ -59,7 +59,8 @@ a {
     background-color: #161c3b;
 }
 
-.img-diagonal {
+.img-diagonal,
+.text-thumb {
     display: none;
 }
 
@@ -79,7 +80,9 @@ a {
 
 /* media query */
 @media screen and (min-width:992px) {
-    .img-diagonal {
+
+    .img-diagonal,
+    .text-thumb {
         display: inherit;
     }
 }
