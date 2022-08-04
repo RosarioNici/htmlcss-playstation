@@ -52,7 +52,7 @@ a {
 }
 
 .ps-plus {
-    background-color: grey;
+    background-color: #bebcbb;
 }
 
 .ps-now {
@@ -60,7 +60,7 @@ a {
 }
 
 .img-diagonal {
-    visibility: hidden;
+    display: none;
 }
 
 /* footer */
@@ -80,6 +80,6 @@ a {
 /* media query */
 @media screen and (min-width:992px) {
     .img-diagonal {
-        visibility: visible;
+        display: inherit;
     }
 }
