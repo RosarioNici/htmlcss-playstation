@@ -121,6 +121,14 @@ a {
     text-decoration: none;
 }
 
+.eia-logo {
+    width: 200px;
+}
+
+.logo-footer-ps {
+    width: 75px;
+}
+
 /* #endregion */
 
 /* button */
@@ -170,5 +178,14 @@ a {
 
     .hidden-bar {
         display: inherit;
+    }
+
+    .flex-around {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo-footer-ps {
+        width: 150px;
     }
 }
