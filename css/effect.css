@@ -1,0 +1,32 @@
+.black-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px black;
+}
+
+.red-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px #cd3d0f;
+}
+
+.xl-blu-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px #2d64e7;
+}
+
+.blu-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px #2d64e7;
+}
+
+.withe-button:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px #2d64e7;
+}
+
+.social {
+    transition: 2s;
+}
+
+.social:hover {
+    border-radius: 25%;
+}

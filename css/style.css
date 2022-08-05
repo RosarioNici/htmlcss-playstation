@@ -106,6 +106,31 @@ a {
     display: none;
 }
 
+#blue-written {
+    color: #2d64e7;
+}
+
+.thumb {
+    text-decoration: none;
+    color: #666;
+    text-align: center;
+    font-weight: 500;
+}
+
+.thumb:hover {
+    color: black;
+    font-size: large;
+}
+
+.card-thumb {
+    opacity: .7;
+}
+
+.card-thumb:hover {
+    border-bottom: 2px solid #2d64e7;
+    opacity: 1;
+}
+
 /* #endregion */
 /* footer */
 /* #region */
@@ -163,6 +188,7 @@ a {
 /* #endregion */
 
 /* media query */
+/* #region */
 @media screen and (min-width:992px) {
 
     .img-diagonal,
@@ -188,4 +214,20 @@ a {
     .logo-footer-ps {
         width: 150px;
     }
+
+    /* 
+    .cards-games-img:hover {
+        border: 2px solid #2d64e7;
+        padding: 0px !important;
+    }
+
+    .games-img {
+        padding: 0px !important;
+        margin: 0px !important;
+        width: 252px;
+        height: 134px;
+    } 
+    */
 }
+
+/* #endregion */
