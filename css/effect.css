@@ -30,3 +30,18 @@
 .social:hover {
     border-radius: 25%;
 }
+
+.img-ps:hover {
+    transform: scale(1);
+    border: 1px grey solid;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.games-img {
+    transition: .5s;
+}
+
+.games-img:hover {
+    transform: translate(0, -15px);
+}
